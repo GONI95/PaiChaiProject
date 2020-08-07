@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorPink">#F845F6</color>
+    <color name="colorPuple">#6316F3</color>
+    <color name="colorLightPink">#F0F845F6</color>
+   <color name="colorAccent">#DD505050</color>
+   <color name="selectTrue">#DDEE48FA</color>
+    <!-- 버튼 눌렀을때 색 변하게 함-->
+   <color name="details_light">#1affffff</color><!-- 배경 투명 -->
+   <color name="details_medium">#66ffffff</color><!-- 글자 투명 -->
+
+</resources>
+
+<!-- #00C6ED-->

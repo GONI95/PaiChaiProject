@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:id="@+id/lessonname"
+            android:text=" 강 의 명: "
+            android:drawableStart="@drawable/ic_folder"
+            android:drawableLeft="@drawable/ic_folder"
+            android:padding="3dp"
+            android:textSize="17dp"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/lesson_name"
+            android:text="고급모바일"
+            android:padding="3dp"
+            android:textSize="17dp"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/lessonname"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:id="@+id/lessonexam"
+            android:text="시험여부: "
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/lesson_exam"
+            android:text="기말 1회"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lessonexam"/>
+
+        <TextView
+            android:id="@+id/lessonproject"
+            android:text="과제/조별과제: "
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lessonexam" />
+        <TextView
+            android:id="@+id/lesson_project"
+            android:text="없음"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lesson_exam"
+            android:layout_toRightOf="@+id/lessonproject"/>
+
+        <TextView
+            android:id="@+id/lessontip"
+            android:text="꿀팁: "
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lessonproject" />
+        <TextView
+            android:id="@+id/lesson_tip"
+            android:text="없음"
+            android:padding="3dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lesson_project"
+            android:layout_toRightOf="@+id/lessontip"/>
+
+        <TextView
+            android:text="학점비율: "
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/lesson_level"/>
+        <TextView
+            android:id="@+id/lesson_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:text="좋음"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="20dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

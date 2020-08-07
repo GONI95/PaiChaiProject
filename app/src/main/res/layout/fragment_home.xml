@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="645dp"
+    android:orientation="vertical"
+    tools:context=".Seok.HomeFragment">
+
+    <TableLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame"
+        >
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+            <ViewFlipper
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:layout_span="3"
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="98dp"
+                />
+        </TableRow>
+        <TableRow android:layout_width="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="76dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/view"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:background="@drawable/homepage"
+                android:onClick="onClick1"
+                android:layout_marginLeft="20dp"
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="76dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="55dp"
+                android:layout_weight="1"
+                android:onClick="onClick2"
+                android:background="@drawable/unicalendar"
+                android:layout_marginLeft="20dp"
+                />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_weight="1"
+                android:layout_width="76dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="55dp"
+                android:onClick="onClick3"
+                android:background="@drawable/notice"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                />
+        </TableRow>
+        <TableRow android:layout_width="match_parent">
+            <TextView android:text="홈페이지"
+                android:textColor="@color/colorBlack"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center"/>
+            <TextView android:text="학사일정"
+                android:textColor="@color/colorBlack"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center"/>
+            <TextView android:text="학사공지"
+                android:textColor="@color/colorBlack"
+                android:layout_weight="1"
+                android:layout_marginLeft="25dp"
+                android:layout_gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent">
+            <Button
+                android:id="@+id/button4"
+                android:layout_weight="1"
+                android:layout_width="76dp"
+                android:layout_height="140dp"
+                android:onClick="onClick4"
+                android:background="@drawable/information"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_weight="1"
+                android:layout_width="76dp"
+                android:layout_height="140dp"
+                android:onClick="onClick5"
+                android:background="@drawable/map"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:id="@+id/button6"
+                android:layout_weight="1"
+                android:layout_width="76dp"
+                android:layout_height="140dp"
+                android:onClick="onClick6"
+                android:background="@drawable/bus"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                />
+        </TableRow>
+        <TableRow android:layout_width="match_parent">
+            <TextView android:text="배재대LMS"
+                android:textColor="@color/colorBlack"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center"/>
+            <TextView android:text="통힙정보시스템"
+                android:textColor="@color/colorBlack"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center"/>
+            <TextView android:text="셔틀버스"
+                android:textColor="@color/colorBlack"
+                android:layout_weight="1"
+                android:layout_marginLeft="25dp"
+                android:layout_gravity="center"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

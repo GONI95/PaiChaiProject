@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">PaiChaiProject</string>
+
+    <!-- TODO: XML FILE -->
+    <!-- login XML -->
+    <string name="Paichai_University">배재대학교</string>
+    <string name="App_Name">Pai Chai Life</string>
+    <string name="ID"> User ID</string>
+    <string name="Password"> Password</string>
+    <string name="Login">Login Now</string>
+    <string name="Register">Join Membership</string>
+
+    <!-- register XML -->
+    <string name="Double_check">중복확인</string>
+    <string name="Date_of_birth"> 생년월일 (ex: 991231)</string>
+    <string name="Student_ID"> 학 번 (ex: 1489001)</string>
+    <string name="Name"> 성 명</string>
+    <string name="Phone_number"> 전화번호 (ex: 01031914209)</string>
+    <string name="Email"> Email</string>
+    <string name="female">여성</string>
+    <string name="male">남성</string>
+    <string name="Sign_up">Sign Up</string>
+
+    <!-- main XML -->
+    <string name="Youngseok_Kim">University</string>
+    <string name="Ilkyo_Yoon">B-Spot</string>
+    <string name="Sanggon">LIFE</string>
+    <string name="Introduction">Introduction</string>
+
+    <!-- Introduction XML -->
+    <string name="introduction_gon">1489054 이상곤</string>
+    <string name="introduction_gon_phone">010-3191-4209</string>
+    <string name="introduction_gon_email">sjs4209@naver.com</string>
+    <string name="introduction_seok">1489010 김영석</string>
+    <string name="introduction_seok_phone">010-6273-8273</string>
+    <string name="introduction_seok_email">dudtjr0831@naver.com</string>
+    <string name="introduction_kyo">1489050 윤일교</string>
+    <string name="introduction_kyo_phone">010-6577-3865</string>
+    <string name="introduction_kyo_email">goo0066@naver.com</string>
+
+    <!-- frament_gon_lesson XML -->
+    <string name="Lesson_inventory">List of liberal arts courses</string>
+
+    <!-- frament_gon_weather XML -->
+    <string name="Weather_inventory">WEATHER</string>
+
+
+    <!-- TODO: JAVA FILE -->
+    <!-- login JAVA -->
+    <string name="Hello_blank_fragment">Hello blank fragment</string>
+    <string name="Blank">빈칸없이 입력하세요</string>
+    <string name="Confirm">확 인</string>
+    <string name="Account_verification">계정을 다시 확인하세요</string>
+    <string name="Login_succeed">로그인에 성공했습니다</string>
+
+    <!-- register JAVA -->
+    <string name="IDBlank">ID가 빈칸입니다</string>
+    <string name="Available_ID">사용가능한 ID 입니다</string>
+    <string name="Not_available_ID">사용 할 수 없는 ID 입니다</string>
+    <string name="Please_double_check">먼저 중복체크를 해주세요</string>
+    <string name="Member_registration_success">회원 등록에 성공했습니다</string>
+    <string name="Member_registration_failed">회원등록에 실패했습니다</string>
+
+    <!-- main JAVA / Video_ID는 안되네ㅠㅜ -->
+    <string name="Api_ID">AIzaSyDx8PUr8qLHIKrN3Okbv0MdY28yqKCqYWw</string>
+    <string name="Fail_Initialize">초기화 실패</string>
+    <string name="Video_ID">rFZAQlToN0A</string>
+
+    <!-- gonfile JAVA -->
+    <string name="Lesson">교양정보</string>
+    <string name="Weather">날씨정보</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_notice">Notice3</string>
+    <string name="title_activity_ilkyo_google_map">Map</string>
+</resources>
